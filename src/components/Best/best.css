@@ -1,0 +1,30 @@
+.best-container {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.best{
+    background-color: black;
+    padding-top: 5rem;
+    width: 100%;
+}
+.best img{
+    width: 100%;
+    position: relative;
+    bottom: -5px;
+    
+}
+@media screen and (max-width: 550px) {
+    /* .best-container {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .best {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .best-container__feature {
+        margin: 1rem 0;
+    } */
+}

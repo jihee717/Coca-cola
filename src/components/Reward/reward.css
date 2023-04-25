@@ -1,0 +1,132 @@
+*{
+    font-family: var(--font-family);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.reward-banner{
+    width: 100%;
+    background-image: url(../../assets/images/rewards1.jpg);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.reward-banner h2{
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    padding: 10% 0 5% 0;
+    text-align: center;
+}
+.reward-img{
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 15% 1em;
+}
+.reward-img.one{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-image: url(../../assets/images/rewards2.png);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.reward-img.two{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-image: url(../../assets/images/rewards3.png);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.reward-img.three{
+    display: flex;
+    width: 100%;
+    background-image: url(../../assets/images/rewards4.jpg);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.reward-img.four{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-image: url(../../assets/images/rewards5.png);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.reward-img.five{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-image: url(../../assets/images/rewards6.png);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.reward-img.six{
+    width: 100%;
+    background-image: url(../../assets/images/rewards7.png);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.reward-img.seven{
+    width: 100%;
+    background-image: url(../../assets/images/rewards8.jpg);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rewrad-txt{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.rewrad-txt h3{
+    font-weight: bold;
+}
+.rewrad-txt p{
+    margin: 1rem;
+    color: white;
+}
+.rewrd-btn{
+    width:30%;
+    margin-top: 2rem;
+}
+.rewrd-btn button{
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    border-radius: 50px;
+    color: white;
+    background-color: #f40000;    
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+}
+.rewrd-btn button:hover{
+    background:black;
+    color: #f40000;
+    transition: all 0.2s;
+}
+.reward-img.seven .rewrad-txt h3{
+    color: black;
+}
+.reward-img.seven .rewrad-txt p{
+    color: black;
+}

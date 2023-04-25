@@ -1,0 +1,146 @@
+*{
+    font-family: var(--font-family);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.creations-banner{
+    width: 100%;
+    background-image: url(../../assets/images/creations-bg.png);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 9%;
+}
+.creations-banner p{
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    padding: 10% 0 5% 0;
+    text-align: center;
+}
+.creations-container{
+    width: 100%;
+    padding: 40px 0 !important;
+}
+.creations1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 30em;
+    background-color: black;
+    background-image: url(../../assets/images/creations1.png);
+    background-size: contain ;
+    background-position:left;
+    background-repeat: no-repeat;
+}
+.creations1 h2{
+    width: 45%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 5rem;
+}
+.creations2{
+    width: 100%;
+}
+.creations2 ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0 !important;
+    padding-top: 40px;
+}
+.creations2 ul h1{
+    font-size: 2.5em;
+    width: 100%;
+    text-align: center;
+    padding: 2em 0;
+    font-weight: bold;
+    color: #000000;
+}
+.creations2 li{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.creations2 h2{
+    width:100%;
+    padding: 1rem;
+    font-weight: bold;
+}
+.creations2 p{
+    width:100%;
+    padding: 2rem;
+    color: black;
+}
+.creations2 .one div{
+    width: 100%;
+    height: 490px;
+    background-image: url(../../assets/images/creations2.png);
+    background-size: contain ;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.creations2 .two div{
+    width: 100%;
+    height: 490px;
+    background-image: url(../../assets/images/creations3.png);
+    background-size: contain ;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.creations2 .three div{
+    width: 100%;
+    height: 490px;
+    background-image: url(../../assets/images/creations4.png);
+    background-size: contain ;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.creations2 .four div{
+    width: 100%;
+    height: 490px;
+    background-image: url(../../assets/images/creations5.png);
+    background-size: contain ;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.creations2 .five div{
+    width: 100%;
+    height: 490px;
+    background-image: url(../../assets/images/creations6.png);
+    background-size: contain ;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.creations2 .six div{
+    width: 100%;
+    height: 490px;
+    background-image: url(../../assets/images/creations7.png);
+    background-size: contain ;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.creations2 .seven div{
+    width: 100%;
+    height: 490px;
+    background-image: url(../../assets/images/creations8.png);
+    background-size: contain ;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.creations2 .eight div{
+    width: 100%;
+    height: 490px;
+    background-image: url(../../assets/images/creations9.png);
+    background-size: contain ;
+    background-position:center;
+    background-repeat: no-repeat;
+}

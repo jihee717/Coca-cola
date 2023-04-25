@@ -1,0 +1,78 @@
+*{
+    font-family: var(--font-family);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.home_contaier{
+    width: 100%;
+    height: 100%;
+}
+.bg_wrap{
+    width: 100%;
+    height: 823px;
+    display: flex;
+    flex-direction: row;
+}
+.bg{
+    flex: 1;
+    display: flex;
+    background-image: url(/src/assets/images/ai.png);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10rem;
+}
+.bg .title{
+    color: black;
+    font-weight: 800;
+    font-size: 62px;
+    margin-bottom: 1rem;
+    letter-spacing: -0.04em;
+}
+.bg p{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 1rem;
+}
+.home_btn {
+    width: 30%;
+    margin-top: 2rem;
+    display: flex;
+
+}
+.home_btn button{
+    flex: 0.6;
+    width: 50px;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    background: #000000;
+    border-radius: 50px;
+    color: #f40000;    
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: none;
+}
+.home_btn button:hover{
+    background:#f40000;
+    color: #ffff;
+    transition: all 0.2s;
+}
+.flavors{
+    display: flex;
+    flex: 2;
+}
